@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Manrope, Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 
 const manrope = Manrope({
@@ -47,7 +48,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className={`scroll-smooth dark ${manrope.variable} ${inter.variable}`}>
-      <body className='bg-background text-on-background antialiased'>{children}</body>
+      <body className='bg-background text-on-background antialiased'>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
