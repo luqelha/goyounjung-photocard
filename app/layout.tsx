@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://gyj.luqelha.my.id'),
   title: '고윤정 | Go Youn-jung',
   description:
     'A visionary presence in modern cinema. From Alchemy of Souls to Moving, redefining the boundary of performance and grace.',
