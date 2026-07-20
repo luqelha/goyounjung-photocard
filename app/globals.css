@@ -85,27 +85,26 @@
 
   html {
     @apply font-body bg-surface-dim;
-    overflow-x: hidden;
-    scrollbar-color: rgb(201, 201, 201) / 20 !important;
+    scrollbar-width: thin !important;
+    scrollbar-color: rgba(201, 201, 201, 0.2) transparent !important;
   }
 
   body {
     @apply bg-surface-dim text-on-surface;
-    overflow-x: hidden;
     min-height: 100vh;
   }
 }
 
 ::-webkit-scrollbar {
   width: 4px;
-  background: transparent;
+  background: #131313;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #131313;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(201, 201, 201) / 20 !important;
+  background: rgba(201, 201, 201, 0.2) !important;
   border-radius: 10px;
 }
