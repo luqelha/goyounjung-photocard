@@ -69,15 +69,6 @@ goyounjung-photocard/
 └── ...                # Config files (tailwind.config.ts, etc.)
 ```
 
-## 🛠️ Built With
-
-- [Next.js](https://nextjs.org/) - React Framework
-- [React](https://react.dev/) - UI Library
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS Framework
-- [Framer Motion](https://www.framer.com/motion/) - Animation Library
-- [shadcn/ui](https://ui.shadcn.com/) - Reusable Component System
-- [Lucide Icons](https://lucide.dev/) - Beautiful & Consistent Icons
-
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
